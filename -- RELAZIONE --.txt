@@ -1,0 +1,23 @@
+
+-- STORIA --
+La Human University ha deciso dopo l'ultimo attacco hacker (subito da un ragazzino che aveva accesso all'intero traffico di rete) di implementare la propria sicurezza di rete.
+
+-- Configurazione --
+IP Rete: 192.168.1.0
+Gateway: 192.168.1.1
+
+-- Info --
+La rete è segmentata in 4 VLAN in modo da permettere a ogni gruppo la massima sicurezza e performance della rete stessa.
+Nel progetto si possono trovare questi gruppi con gli appositi tag:
+Preside = 10
+Prof = 20
+Studenti = 30
+Esterni = 40
+
+-- Creazione Pratica del progetto --
+1) Per prima cosa sono andato a creare le VLAN con gli appositi tag nello switch
+2) Ho creato delle stanze con lo strumento "forma" in modo da rendere il progetto più ordinato e comprensibile
+3) All'interno di ogni stanza ho inserito gli HOST
+4) Ho cominciato a configurare ogni HOST utilizzando lo stesso IP di rete 192.168.1.0
+5) Una volta configurati gli HOST ho cominciato a collegarli alla porta VLAN di appartenenza uno ad uno
+6) Per verificare se il tutto fosse funzionante ho cominciato a mandare segnali ping da un HOST all'altro tramite prompt di commandi  
